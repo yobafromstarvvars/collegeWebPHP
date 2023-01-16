@@ -4,9 +4,10 @@
   require HEAD;
 ?>
 
-
   <body>
-    
-
+    <?php
+      // Link to a page
+      $_SESSION["newsession"]=$value;
+    ?>
   </body>
 </html>
