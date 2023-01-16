@@ -1,6 +1,7 @@
 <?php
   define('ROOTURL', '/');
   define('ROOTPATH', __DIR__);
+  define('HEAD', realpath(ROOTPATH.'/common/head.html');
 
   $chapters = [
     [
