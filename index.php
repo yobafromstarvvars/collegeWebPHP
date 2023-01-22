@@ -1,6 +1,8 @@
 <?php 
-  session_start();
-  require './config/config.php';
+  ini_set( 'error_reporting', E_ALL );
+  ini_set( 'display_errors', true );
+  session_start(); 
+  require 'config/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +13,7 @@
   <title>
     <?php echo $_SESSION["page_title"] ?>
   </title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>

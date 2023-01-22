@@ -1,0 +1,26 @@
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.header-date {
+    font-size: 14px;
+}
+
+.subchapter-list-item {
+    text-indent: 1rem;
+}
+
+#header {
+    border-bottom: 1px solid black;
+    margin-bottom:1rem;
+}
+
+#footer {
+    margin-top: 1rem;
+    border-top: 1px solid black;
+    text-align: center;
+}
