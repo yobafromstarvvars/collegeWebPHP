@@ -8,6 +8,10 @@ h2 {
 
 .header-date {
     font-size: 14px;
+<<<<<<< HEAD
+    margin: 20px;
+=======
+>>>>>>> e61b48a4b71ed1052d08f0ece3001ccdb2b56109
 }
 
 .subchapter-list-item {
@@ -23,4 +27,38 @@ h2 {
     margin-top: 1rem;
     border-top: 1px solid black;
     text-align: center;
+<<<<<<< HEAD
 }
+
+body {
+    margin:1rem;
+}
+
+.finished_status {
+    color: green;
+}
+
+.not_finished_status {
+    color: red;
+}
+
+.other_status {
+    color:orange;
+}
+
+
+
+.content_list {
+    border-collapse: collapse;
+}
+
+.chapter_exercises td {
+    border-bottom: 1px solid black; 
+}
+
+.content_list tr:last-child td {
+    border-bottom: 0;
+  }
+=======
+}
+>>>>>>> e61b48a4b71ed1052d08f0ece3001ccdb2b56109

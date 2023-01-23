@@ -1,12 +1,27 @@
 <?php
   define('ROOTURL', '/');
   define('ROOTPATH', dirname(__DIR__));
+<<<<<<< HEAD
+  define('HEAD', ROOTPATH.'/common/head.php');
+  define('FOOTER', ROOTPATH.'/common/footer.php');
+  define('CHAPTERS', ROOTURL.'chapters');
+=======
   define('CHAPTERS', realpath(ROOTPATH.'/chapters'));
+>>>>>>> e61b48a4b71ed1052d08f0ece3001ccdb2b56109
   $_SESSION["page_title"] = 'Home page';
   $_SESSION["page_header"] = 'Home page';
   $linkto_content = realpath(ROOTPATH.'/_index.php');
   define('AUTHOR', 'Кунгурцев Виталий');
   define('GROUP', 'ИСиП-35');
+<<<<<<< HEAD
+  // Text that shows exc status in Home page, should be before 'require chapter_data'
+  $finished_status = 'finished';
+  $not_finished_status = 'not finished';
+  $other_status = 'undefined';
+  require ROOTPATH.'/config/chapter_data.php';
+  $prev_page = '';
+  
+=======
 
   $chapters = [
     [
@@ -36,4 +51,5 @@
 
     ],
   ];
+>>>>>>> e61b48a4b71ed1052d08f0ece3001ccdb2b56109
 ?>
