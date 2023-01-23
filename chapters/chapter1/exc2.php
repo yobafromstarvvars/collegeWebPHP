@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php 
 ini_set( 'error_reporting', E_ALL );
 ini_set( 'display_errors', true );
@@ -19,22 +19,4 @@ ini_set( 'display_errors', true );
 </main>
 
 <?php require FOOTER; ?>
-=======
-<?php
-    session_start();
-?>
 
-<header>
-    <a href="">Home</a>
-    <h1> <?php $_SESSION["page_header"] ?> </h1>
-    <p></p>
-    <hr>
-</header>
-<main>
-
-</main>
-<footer>
-    <p> <?php echo AUTHOR ?> </p>
-    <p> <?php echo GROUP ?> </p>
-</footer>
->>>>>>> e61b48a4b71ed1052d08f0ece3001ccdb2b56109
