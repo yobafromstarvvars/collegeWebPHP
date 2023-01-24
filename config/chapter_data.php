@@ -31,12 +31,12 @@ $chapters_links = [
   
   $chapters_status = [
       [
-      "1.1" => 	$not_finished_status,
-      "1.2" => 	$not_finished_status,
-      "1.3" => 	$not_finished_status,
-      "1.4" => 	$not_finished_status,
-      "1.5" => 	$not_finished_status,
-      "1.6" => 	$not_finished_status,
+      "1.1" => 	$finished_status,
+      "1.2" => 	$finished_status,
+      "1.3" => 	$finished_status,
+      "1.4" => 	$finished_status,
+      "1.5" => 	$finished_status,
+      "1.6" => 	$finished_status,
       "1.7" => 	$not_finished_status,
       "1.8" => 	$not_finished_status,
       "1.9" => 	$not_finished_status,

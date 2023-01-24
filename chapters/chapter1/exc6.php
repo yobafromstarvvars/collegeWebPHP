@@ -11,10 +11,11 @@ ini_set( 'display_errors', true );
 <header id="header">
     <a href="<?php echo ROOTURL.'index.php'; ?>">Home</a>
     <?php echo '<h1>'.$_SESSION["page_header"].'</h1>'; ?> 
+    <p>Вывести код страницы на саму страницу</p>
 </header>
 
 <main>
-
+<embed class="exc6_embed" src="exc6.txt">
 </main>
 
 <?php require FOOTER; ?>
