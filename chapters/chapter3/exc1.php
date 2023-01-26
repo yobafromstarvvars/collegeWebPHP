@@ -3,8 +3,8 @@ ini_set( 'error_reporting', E_ALL );
 ini_set( 'display_errors', true );
   session_start(); 
   require '../../config/config.php';
-  $_SESSION["page_title"] = '3.1';
-  $_SESSION["page_header"] = 'Exercise 3.1';
+  $_SESSION["page_title"] = '2.1';
+  $_SESSION["page_header"] = 'Exercise 2.1';
   require HEAD;
 ?>
 
